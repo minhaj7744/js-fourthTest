@@ -81,6 +81,22 @@
 // }
 // checkPrimeNumber(num)
 
+// function isprime(n){
+
+//     if(n %2===0){
+//     return false;
+//   }else{
+//    return true;
+//   }
+// }
+  
+ 
+// console.log(isprime(2));
+let num=29;
+for(let i = 1; i <= Math.sqrt(num); i++){
+   console.log(i)
+}
+
 // Question 7:
 
 // Create a JavaScript program that calculates the sum of all numbers from 1 to 1000 that are divisible by 3, 5, or 7.
@@ -104,15 +120,21 @@
 
 // Write a JavaScript function that takes a string as input and returns the reverse of the string without using a built-in reverse method, using a for loop.
 
-const Name=["javascipt"];
 
-function reversString(strng){
-   for(var i = strng.length-1; i >= 0; i--){
-    console.log(strng[i])
-   }
-}
-reversString(Name);
-// Question 9:
+
+
+// function reversString(strng){
+//    // console.log(strng);
+//    let empty=[];
+//    for(var i = strng.length-1; i >= 0; i--){
+//      console.log(strng[i])
+//      empty.push(strng[i])
+
+//    }
+//    return empty
+// }
+// console.log(reversString("javascipt"));
+// // Question 9:
 
 // Create a JavaScript program that generates a random password of a specified length, consisting of letters (both uppercase and lowercase), numbers, and special characters.
 
